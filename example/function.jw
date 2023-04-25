@@ -1,0 +1,20 @@
+# Creating a Function
+# In Jawa-Language a function is defined using the njabarake keyword:
+
+njabarake fungsi_iki():
+    nyetak("Jancuk raimu")
+
+# call it by
+fungsi_iki()
+
+# Arguments
+njabarake halo(jeneng):
+    nyetak(f"halo {jeneng}")
+
+halo("Arsy")
+
+# The return
+njabarake tambah(a, b):
+    bali a+b
+
+nyetak(tambah(1,1))

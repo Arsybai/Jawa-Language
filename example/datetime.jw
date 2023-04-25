@@ -1,0 +1,22 @@
+# A date in jawa-language is not a data type of its own, but we can import a module named pawekton to work with dates as date objects.
+ngimpor pawekton
+
+x = pawekton.pawekton.saiki()
+nyetak(x)
+
+# The date contains year, month, day, hour, minute, second, and microsecond.
+# The pawekton module has many methods to return information about the date object.
+# Return the year and name of weekday:
+ngimpor pawekton
+
+x = pawekton.pawekton.saiki()
+
+nyetak(x.tahun)
+nyetak(x.strftime("%A"))
+
+# Creating Date Objects
+ngimpor pawekton
+
+x = pawekton.pawekton(2020, 5, 17)
+
+nyetak(x)

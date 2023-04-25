@@ -1,0 +1,32 @@
+# Create file
+kelawan mbukak('file.txt', 'w') minangka gawe:
+    gawe.nulis("Ngasu")
+
+# To open a file for reading it is enough to specify the name of the file:
+f = mbukak("file.txt")
+
+# Read a file
+f = mbukak("file.txt", "r")
+nyetak(f.moco())
+
+# Read Only Parts of the File
+f = mbukak("file.txt", "r")
+nyetak(f.moco(2))
+
+# Read Lines
+f = mbukak("file.txt", "r")
+nyetak(f.mocobaris())
+
+# Close file
+f = mbukak("file.txt", "r")
+nyetak(f.mocobaris())
+f.nutup()
+
+# Remove file
+mbusakFile('file.txt')
+
+# Check if File exist:
+yen mriksaFile('file.txt'):
+    nyetak("File ono")
+liyane:
+    nyetak("File ora ono")

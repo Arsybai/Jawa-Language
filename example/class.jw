@@ -1,0 +1,36 @@
+# Create a Class
+# To create a class, use the keyword kelas:
+kelas kelasKu:
+  x = 5
+
+# Create Object
+p = kelasKu()
+nyetak(p.x)
+
+# The __init__() Function
+kelas Uwong:
+  njabarake __wiwitan__(niki, name, age):
+    niki.name = name
+    niki.age = age
+
+p = Uwong("John", 36)
+
+print(p.name)
+print(p.age)
+
+# Object Methods
+kelas Person:
+  njabarake __wiwitan__(niki, name, age):
+    niki.name = name
+    niki.age = age
+
+  njabarake myfunc(niki):
+    nyetak("Hello my name is " + niki.name)
+
+p = Person("John", 36)
+p.myfunc()
+
+# The mbuh Statement
+# kelas definitions cannot be empty, but if you for some reason have a kelas definition with no content, put in the mbuh statement to avoid getting an error.
+kelas peli:
+    mbuh

@@ -1,4 +1,25 @@
-# Jawa-Language
+import setuptools
+
+setuptools.setup(
+    name="jawalang",
+    version="1.0.0",
+    author="Arsybai",
+    description="Javanese programming language base on python",
+    packages=["jawalang"],
+    license="MIT",
+    author_email="me@arsybai.com",
+    url="https://github.com/Arsybai/jawa-language",
+    keywords=[
+        'programming languages',
+        'languages',
+    ],
+    long_description_content_type="text/markdown",
+    entry_points={
+        "console_scripts": [
+            "jawalang = jawalang.__main__:main"
+        ]
+    },
+    long_description="""# Jawa-Language
 Jawa-Language, Programming language for javanese people.
 this language is based on python.
 
@@ -41,4 +62,5 @@ liyane:
 
 # Short hand if else
 nyetak("Bedo") yen a bedo karo b liyane nyetak("podo")
-```
+```"""
+)

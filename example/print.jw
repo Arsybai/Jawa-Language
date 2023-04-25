@@ -1,0 +1,17 @@
+nyetak("Raimu asu")
+
+x = "raimu asu"
+nyetak(x)
+
+x, y = 1,2
+nyetak(x+y)
+
+# Uppercase
+nyetak("Halo".huruf gedhe())
+
+# Lowercase
+nyetak("Halo".huruf cilik())
+
+# strip
+v = "   Halo Cok   "
+nyetak(v.ngudani())

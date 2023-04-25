@@ -1,0 +1,19 @@
+# for i in range(10):
+#     print(i)
+
+kangge i ing jangkoan(10):
+    nyetak(i)
+
+# The break statement
+buah = ["apel", "gedhang", "ceri"]
+kangge x ing buah:
+  nyetak(x)
+  yen x podo karo "gedhang":
+    mandek
+
+# The continue statement
+buah = ["apel", "gedhang", "ceri"]
+kangge x ing buah:
+  yen x podo karo "gedhang":
+    terusake
+  nyetak(x)

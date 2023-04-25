@@ -1,0 +1,15 @@
+a = 0
+b = 1
+
+# if a == b
+yen a podo karo b:
+    nyetak("podo")
+# elif a != b:
+liyane tur a bedo karo b:
+    nyetak("bedo")
+# else
+liyane:
+    nyetak("Bedo cuk")
+
+# Short hand if else
+nyetak("Bedo") yen a bedo karo b liyane nyetak("podo")

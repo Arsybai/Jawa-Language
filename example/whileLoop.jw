@@ -1,0 +1,4 @@
+i = 0
+nalika i bedo karo 5:
+    nyetak("Ngasu")
+    i+=1

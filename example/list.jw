@@ -1,0 +1,28 @@
+dhaptar = ["siji","loro","telu"]
+
+# Accessing the list
+nyetak(dhaptar[0])
+
+# Change the list item
+dhaptar[2] = "sewidak rolas"
+nyetak(dhaptar)
+
+# Append to list
+dhaptar.nambahi("sepuluh")
+nyetak(dhaptar)
+
+# Insert
+dhaptar.nglebokake(1, "rongatus")
+nyetak(dhaptar)
+
+# Remove specific value
+dhaptar.mbusak("siji")
+nyetak(dhaptar)
+
+# Pop (remove specific index)
+dhaptar.guwak(2)
+nyetak(dhaptar)
+
+# Clear list
+dhaptar.resik()
+nyetak(dhaptar)

@@ -1,0 +1,35 @@
+# Exception Handling
+njajal:
+    nyetak(x)
+kajaba:
+    nyetak("Error cuk")
+
+# Many Exceptions
+njajal:
+    nyetak(x)
+kajaba JenengError:
+    nyetak("Variabel x ora ditetapake")
+kajaba:
+    nyetak("Koyone enek sing salah iki cuk")
+
+# Else
+njajal:
+    nyetak("Hello")
+kajaba:
+    nyetak("Kayane enek sing error iki su")
+liyane:
+    print("Raono sing error")
+
+# Finally
+njajal:
+  nyetak(x)
+kajaba:
+  nyetak("Something went wrong")
+pungkasane:
+  nyetak("Rampungan")
+
+# Raise an exception
+x = -1
+
+yen x < 0:
+  ngunggahaken Pungkasan("Sepurane, raono ongko sak ngisore nul")

@@ -1,0 +1,10 @@
+# You can import python module
+
+# Importing module
+ngimpor <module_name>
+
+# Import from module
+seko <module_name> ngimpor <something_you_want_to_import>
+
+# Renaming module
+ngimpor <module_name> minangka <name>
