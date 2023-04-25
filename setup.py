@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="jawalang",
-    version="1.0.0",
+    version="1.0.5",
     author="Arsybai",
     description="Javanese programming language base on python",
     packages=["jawalang"],

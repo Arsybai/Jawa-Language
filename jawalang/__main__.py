@@ -1,6 +1,6 @@
 import sys, re, os, traceback
-from .logic.transform import transform
-from .logic.errorHandle import error
+from .transform import transform
+from .errorHandle import error
 
 def pars(script):
     scriptL = script.split("\n")
@@ -73,5 +73,5 @@ def main():
                 #print(e)
                 raiseError(e)
     except Exception as e:
-        print(e)
-        # print("Use `jawalang run <path>` to execute file")
+        #print(e)
+        print("Use `jawalang run <path>` to execute file")
